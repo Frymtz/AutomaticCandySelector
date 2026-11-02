@@ -37,14 +37,17 @@ variantes:
     - jaune
     - vert
     - bleu
+    - orange
 
   fraise:
     - rouge
 
   ourson:
+    - blanc
     - rouge
     - vert
     - jaune
+    - orange
 
   schtroumpf:
     - blanc
