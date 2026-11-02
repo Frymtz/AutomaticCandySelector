@@ -1,0 +1,64 @@
+# ========================================
+# ACS - Configuration des classes
+# ========================================
+
+types:
+  - dragibus
+  - crocodile
+  - fraise
+  - ourson
+  - schtroumpf
+  - oeuf
+
+# Étiquettes des couleurs et variantes
+couleurs:
+  - rouge
+  - bleu
+  - vert
+  - noir
+  - rose
+  - jaune
+  - blanc
+  - fraise
+
+# Combinaisons autorisées
+variantes:
+
+  dragibus:
+    - rouge
+    - bleu
+    - vert
+    - noir
+    - rose
+    - jaune
+
+  crocodile:
+    - rouge
+    - jaune
+    - vert
+    - bleu
+
+  fraise:
+    - rouge
+
+  ourson:
+    - rouge
+    - vert
+    - jaune
+
+  schtroumpf:
+    - blanc
+    - jaune
+    - rouge
+  
+  oeuf:
+    - blanc
+
+# Règles spécifiques d'annotation
+regles_annotation:
+
+  schtroumpf:
+    critere: couleur_du_bonnet
+    description: >
+      La couleur de la variante correspond
+      à la partie variable du bonbon.
